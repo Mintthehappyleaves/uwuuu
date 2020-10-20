@@ -27,6 +27,10 @@ while True:
       feelings_list.append("stressed")
       encouragement_list.append("you will always have a listening ear")
       counter += 1
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("Why don't we just relax and turn on the radio?! Would you like AM or FM?!")
+      counter += 1
 
   if counter == 0:
     
